@@ -1,11 +1,15 @@
 import React from 'react';
+import Layout from './Layout/Layout';
+import TimerBox from '../components/Timer-box/Timer--box';
+
 
 function App() {
   return (
-    <div>
-   test
-    </div>
-  );
+    <Layout>
+      <TimerBox/>
+    </Layout>
+    
+    );
 }
 
 export default App;
